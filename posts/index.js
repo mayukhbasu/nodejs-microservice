@@ -31,5 +31,6 @@ app.post("/events", (req, res) => {
 })
 
 app.listen(4000, () => {
+    console.log("deploying version 55");
     console.log("listening on PORT 4000")
 })
